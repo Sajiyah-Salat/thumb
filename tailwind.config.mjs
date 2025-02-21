@@ -11,6 +11,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        bungee: ['Bungee', 'cursive'],
+        poppins: ['Poppins', 'sans-serif'],
+      },
     },
   },
   plugins: [],

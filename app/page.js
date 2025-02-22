@@ -129,110 +129,20 @@ export default function Home() {
         </div>
       </nav>
 
-      {/* Main Content */}
-      <div className="flex mt-20 flex-col md:flex-row items-center justify-between gap-8 max-w-6xl mx-auto">
-        {/* Left Side */}
-        <div className="flex-1 md:pr-40 pr-0 ">
-          <h1 className="text-6xl font-bold text-white mb-8 [text-shadow:2px_2px_4px_rgba(0,0,0,0.3)]">
-            GretaTHUMBerg<br />👍
-          </h1>
-          <div className="text-white text-lg mb-2">
-            <p>Crypto can have a green thumb too! Built on Solana, using 99.9% less power than Bitcoin network.</p>
-            <p className="mt-4">For every $100k over $100k MarketCap, we donate $1000 to the IQ Air Foundation!</p>
-          </div>
-          <Image 
-            src="/aout.png" 
-            alt="Environmental Theme" 
-            className=" object-contain -translate-y-7"
-            width={700}
-            height={700}
-          />
-        </div>
+{/* Main Content */}
+<div className="flex m-40 flex-col items-center justify-center text-center mt-20 px-6 max-w-4xl mx-auto">
 
-{/* Right Side - Stats Box */}
-<div className="bg-green-800 bg-opacity-90 p-6 rounded-lg w-full max-w-md">
-  <h2 className="text-white text-xl mb-4">LAUNCH COUNTDOWN</h2>
-  
-  {/* Timer */}
-  <div className="grid grid-cols-3 gap-4 mb-6">
-    <div className="bg-white rounded p-2 text-center">
-      <div className="text-2xl text-gray-600 font-bold">{timeLeft.hours}</div>
-      <div className="text-sm text-black">HOURS</div>
+  <div className="w-full">
+    <h1 className="text-6xl font-bold text-white mb-8 [text-shadow:2px_2px_4px_rgba(0,0,0,0.3)]">
+      GretaTHUMBerg<br />👍
+    </h1>
+    <div className="text-white text-lg mb-2">
+      <p>Crypto can have a green thumb too! Built on Solana, using 99.9% less power than Bitcoin network.</p>
+      <p className="mt-4">For every $100k over $100k MarketCap, we donate $1000 to the IQ Air Foundation!</p>
     </div>
-    <div className="bg-white rounded p-2 text-center">
-      <div className="text-2xl text-gray-600 font-bold">{timeLeft.minutes}</div>
-      <div className="text-sm text-black">MINUTES</div>
-    </div>
-    <div className="bg-white rounded p-2 text-center">
-      <div className="text-2xl font-bold text-gray-600">{timeLeft.seconds}</div>
-      <div className="text-sm text-black">SECONDS</div>
-    </div>
-  </div>
-
-  {/* Project Overview */}
-  <div className="text-white space-y-4 mb-6">
-    <p className="text-sm">
-      GretaTHUMBerg ($THUMB) is a Solana-based token designed to prove that crypto can be sustainable. 
-      Built on the Solana ($SOL) network, $THUMB uses 99.9% less energy than Bitcoin. Clean air, clean water, 
-      and a cleaner blockchain future—this is what $THUMB stands for.
-    </p>
-    <p className="text-sm">
-      For every $100K over the $100K market cap, the team will donate $1,000 to the IQ Air Foundation 
-      <a href="https://www.iqairfoundation.org/" className="underline"> (www.iqairfoundation.org)</a> 
-      to support environmental initiatives.
-    </p>
-  </div>
-
-  {/* Stats */}
-  <div className="text-white space-y-2 mb-6">
-    <div className="flex justify-between">
-      <span>Total Supply:</span>
-      <span>4.58B THUMB</span>
-    </div>
-    <div className="flex justify-between">
-      <span>Pooled Tokens:</span>
-      <span>1.75B THUMB</span>
-    </div>
-    <div className="flex justify-between">
-      <span>Initial MCap:</span>
-      <span>$12K</span>
-    </div>
-  </div>
-
-  {/* Contract Info */}
-  <div className="bg-white bg-opacity-20 rounded p-3 mb-4">
-    <div className="text-white text-sm mb-2">Contract Address:</div>
-    <div className="text-white text-xs break-all">
-      3XvyoNUkwJtwKTAyGEsCG3cUwTfhLzbHW7sSyy2RA8ba
-    </div>
-  </div>
-
-  <button className="w-full bg-white rounded-lg py-3 font-bold text-green-700 mb-4">
-    Connect Wallet
-  </button>
-
-  <div className="text-center text-white text-sm mb-6">
-    Contract Renounced | Liquidity Burned | Community Owned
-  </div>
-
-  {/* Buy Button */}
-  <div className="text-center">
-    <button className="bg-white text-green-700 px-8 py-3 rounded-full font-bold text-xl">
-      Buy $THUMB
-    </button>
-  </div>
-
-  {/* External Links */}
-  <div className="text-center text-white text-xs mt-6 space-y-2">
-    <p>
-      <a href="https://gretathumb.world" className="underline">Website</a> |
-      <a href="https://dexscreener.com/solana/3XvyoNUkwJtwKTAyGEsCG3cUwTfhLzbHW7sSyy2RA8ba" className="underline"> DexScreener</a> |
-      <a href="https://solscan.io/token/3XvyoNUkwJtwKTAyGEsCG3cUwTfhLzbHW7sSyy2RA8ba" className="underline"> SolScan</a>
-    </p>
   </div>
 </div>
 
-      </div>
 
 
       <div className="relative min-h-screen  text-black rounded-lg bg-white p-8">
